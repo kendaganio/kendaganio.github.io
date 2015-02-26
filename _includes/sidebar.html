@@ -2,8 +2,7 @@
   <div class="header">
     <h1 class="brand-title">{{ site.title }}</h1>
     <h2 class="brand-tagline">
-      Bored 84% of the time,<br>
-      always hungry.
+      I like to code stuff.
     </h2>
 
     <nav class="nav">
@@ -15,6 +14,11 @@
             </li>
           {% endif %}
         {% endfor %}
+
+        <li class="nav-item">
+          <a class="pure-button" href="{{ '/cv' | prepend: site.baseurl }}">CV</a>
+        </li>
+
       </ul>
     </nav>
 

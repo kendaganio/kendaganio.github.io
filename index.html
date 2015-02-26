@@ -28,7 +28,7 @@ layout: default
     {% for post in site.posts %}
       <section class="post">
         <header class="post-header">
-          <img class="post-avatar" alt="" height="48" width="48" src="//placehold.it/40x40">
+          <img class="post-avatar" alt="" height="48" width="48" src="{{ site.avatar }}">
             <h2 class="post-title">
               <a href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }} </a>
             </h2>
