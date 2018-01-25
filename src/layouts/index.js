@@ -10,18 +10,24 @@ const FooterLink = (params) => {
 }
 
 export default ({children, data}) => {
-  return <g.Div margin="50px auto" maxWidth="650px" padding="0 15px">
+  return <section className="section">
     <Helmet title={data.site.siteMetadata.title}/>
-      {children()}
-    <hr/>
 
-    <footer>
-      <FooterLink to="/">Home</FooterLink>
-      <FooterLink to="/cv">CV</FooterLink>
-      <FooterLink to="/posts">Blog</FooterLink>
-    </footer>
+    <div className="columns">
+      <div className="column is-three-fifths is-offset-one-fifth">
+        {children()}
 
-  </g.Div>
+        <footer>
+          <hr/>
+          <FooterLink to="/">Home</FooterLink>
+          <FooterLink to="/cv">CV</FooterLink>
+          <FooterLink to="/posts">Blog</FooterLink>
+        </footer>
+      </div>
+    </div>
+
+
+  </section>
 }
 
 export const query = graphql `

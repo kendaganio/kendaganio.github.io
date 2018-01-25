@@ -6,7 +6,7 @@ import { rhythm } from "../utils/typography"
 export default ({ data }) => {
   return (
     <div>
-      <h1>Hello! They call me Ken.</h1>
+      <h1>Ken's blog.</h1>
       <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>

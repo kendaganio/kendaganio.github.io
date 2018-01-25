@@ -1,0 +1,48 @@
+.cv-wrapper {
+  font-size: 0.88rem;
+}
+
+.cv-wrapper h2 {
+  margin-bottom: 0;
+  font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+}
+
+.cv-wrapper h2 span.colored {
+  background: linear-gradient(to bottom, transparent 62%, #ffeaa7 0) center center/0% 70% no-repeat;
+  cursor: pointer;
+  background-size: 100% 100%;
+}
+
+.cv-wrapper h1.ma-name-ken {
+  font-size: 2.6rem;
+}
+
+.column.left {
+  text-align: right;
+}
+
+@media print {
+  .column.is-three-fifths {
+    width: 100%;
+  }
+
+  .column.is-offset-one-fifth {
+    margin: 0px;
+  }
+
+  .cv-wrapper {
+    font-size: 0.7rem;
+  }
+
+  .cv-wrapper h1.ma-name-ken {
+    font-size: 2rem;
+  }
+
+  .section {
+    padding: 0;
+    padding-top: 10px;
+  }
+}
