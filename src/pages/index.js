@@ -10,12 +10,25 @@ export default ({ data }) => {
       I am a software developer with a penchant for experimentation. I have walked my way through most of the web stack
       and find myself enjoying every bit of it. Currently, I am
       helping <a target="_blank" href="https://www.launchpadrecruits.com">LaunchPad Recruits</a> create
-      video interviewing software.
+      video interviewing software. To learn more of what I've done in the past you can do so <Link to="/cv">here</Link>.
     </p>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>
+      Most of what I do revolves around <strong>Ruby</strong> and <strong>Javascript</strong>, but that doesn't mean I am less open to other technology stacks.
+      Nowadays I spend most of my time doing front-end development, mostly with <strong>React</strong> and it's ecosystem.
+    </p>
 
-    <p>I like to write, but I'm not very diligent about it. You can see some of my posts <Link to="/posts">here.</Link></p>
+    <p>
+      Writing is my first love, but I wish I'm more diligent about it.
+      You can see some of my tech-related write ups <Link to="/posts">here</Link>;
+      or if food and travel is what you fancy,
+      I also contribute to the <a target="_blank" href="https://gastrotravelers.com">gastrotravelers</a> blog.
+    </p>
+
+    <p>
+      If you want to reach out for anything, you can find me in the interwebs at the handle <strong>@kendaganio</strong>,
+      or shoot me an e-mail at <a href="mailto:hi@kendaganio.com">hi@kendaganio.com</a>
+    </p>
 
   </div>
 };
