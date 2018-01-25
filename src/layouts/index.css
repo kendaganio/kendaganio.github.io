@@ -20,3 +20,9 @@ a:active {
 footer a {
   margin: 5px;
 }
+
+.fancy-underline {
+  background: linear-gradient(to bottom, transparent 62%, #ffeaa7 0) center center/0% 70% no-repeat;
+  cursor: pointer;
+  background-size: 100% 100%;
+}
