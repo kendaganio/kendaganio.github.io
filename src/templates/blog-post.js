@@ -7,7 +7,11 @@ export default ({ data }) => {
 
   return (
     <div className="blog-post">
-      <g.H1 marginBottom="5px" className="fancy-underline">{post.frontmatter.title}</g.H1>
+      <g.H1 marginBottom="5px">
+        <span className="fancy-underline">
+          {post.frontmatter.title}
+        </span>
+      </g.H1>
       <g.Strong color="#1b1d1e">{post.frontmatter.date} | </g.Strong>
       <g.Em color="#BBB"> { post.frontmatter.tags.join(', ') }</g.Em>
 
