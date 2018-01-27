@@ -1,0 +1,91 @@
+{
+  "basics": {
+    "name": "Ken-Lauren Daganio",
+    "label": "Software Developer",
+    "picture": "http://0.gravatar.com/avatar/09f986960c8d33e2b0032f5c839861d4",
+    "email": "ken.daganio@gmail.com",
+    "phone": "(+63) 936 952 0093",
+    "website": "http://kendaganio.com",
+    "summary": "I code hard.",
+    "location": {
+      "address": "Nope.",
+      "postalCode": "Nope.",
+      "city": "Manila",
+      "countryCode": "PH",
+      "region": "NCR"
+    },
+    "profiles": [{
+      "network": "Github",
+      "username": "kendaganio",
+      "url": "https://github.com/kendaganio"
+    }]
+  },
+  "work": [{
+    "company": "Launchpad Recruits",
+    "position": "Software Engineer",
+    "website": "https://launchpadrecruits.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Being awesome...",
+    "highlights": [
+      "Developing shit."
+    ]
+  }],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "website": "http://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description...",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Far Eastern University",
+    "area": "Computer Science",
+    "studyType": "Bachelor of Science",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "gpa": "4.0",
+    "courses": []
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "website": "http://publication.com",
+    "summary": "Description..."
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  }],
+  "languages": [{
+    "name": "English",
+    "level": "Native"
+  }, {
+    "name": "Filipino",
+    "level": "Native"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": []
+}
