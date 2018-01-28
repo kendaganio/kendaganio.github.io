@@ -24,12 +24,21 @@
     "company": "Launchpad Recruits",
     "position": "Software Engineer",
     "website": "https://launchpadrecruits.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Being awesome...",
+    "startDate": "2016-02-01",
+    "endDate": "",
+    "summary": "Part of the product team where we develop various features and integrations for the platform. Headed a campaign to organize Javascript dependency management and the go-to point person for all things front-end.",
     "highlights": [
       "Developing shit."
     ]
+  },{
+    "company": "SourcePad Int'l Inc.",
+    "position": "Software Engineer",
+    "website": "http://sourcepad.com",
+    "startDate": "2013-10-01",
+    "endDate": "2016-01-01",
+    "summary": "Co-authored, along with one other dev, next24.io - a task management software for teams using the MEAN stack. Worked closely with clients developing and maintaing Ruby on Rails projects including: 1000museums.com, commutyble.com, and various others. Did R&D work for internal projects using bleeding edge technologies.",
+    "highlights": []
+
   }],
   "volunteer": [{
     "organization": "Organization",
