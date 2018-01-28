@@ -24,23 +24,52 @@
     "company": "Launchpad Recruits",
     "position": "Software Engineer",
     "website": "https://launchpadrecruits.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Being awesome...",
-    "highlights": [
-      "Developing shit."
-    ]
+    "startDate": "2016-02-01",
+    "endDate": "",
+    "summary": "Part of the product team where we develop various features and integrations for the platform. Headed a campaign to organize Javascript dependency management and the go-to point person for all things front-end.",
+    "highlights": []
+  }, {
+    "company": "SourcePad Int'l Inc.",
+    "position": "Software Engineer",
+    "website": "http://sourcepad.com",
+    "startDate": "2013-10-01",
+    "endDate": "2016-01-01",
+    "summary": "Co-authored, along with one other dev, next24.io - a task management software for teams using the MEAN stack. Worked closely with clients developing and maintaing Ruby on Rails projects including: 1000museums.com, commutyble.com, and various others. Did R&D work for internal projects using bleeding edge technologies.",
+    "highlights": []
+  }, {
+    "company": "Infoshift Inc",
+    "position": "Software Consultant",
+    "website": "http://infoshiftinc.co",
+    "startDate": "2013-07-01",
+    "endDate": "2013-10-01",
+    "summary": "Responsible for building an e-commerce merchant services portal offering SMS, Prepaid Credit Reloads, Bills Payment using various third party APIs, coded in Ruby on Rails and Nodejs.",
+    "highlights": []
+  }, {
+    "company": "Indinero.com",
+    "position": "Software Engineer",
+    "website": "https://indinero.com",
+    "startDate": "2013-05-01",
+    "endDate": "2013-10-01",
+    "summary": "Worked on indinero.com product, an accounting, tax and payroll software in the browser utilizing Ruby on Rails and Backbone.js",
+    "highlights": []
+  }, {
+    "company": "Freelancer.com",
+    "position": "Software Engineer",
+    "website": "https://freelancer.com",
+    "startDate": "2012-10-01",
+    "endDate": "2013-04-01",
+    "summary": "Worked on the freelancer.com stack using various technologies, including PHP, Backbone.js, RabbitMQ, Redis, Node and Python ",
+    "highlights": []
   }],
+
   "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
+    "organization": "Rails Girls Manila",
+    "position": "Coach",
+    "website": "http://railsgirls.com/manila",
+    "startDate": "2012-11-23",
+    "endDate": "2013-11-24",
+    "summary": "Helped coach attendees on basic Ruby on Rails app development",
+    "highlights": [ ]
   }],
   "education": [{
     "institution": "Far Eastern University",
@@ -57,13 +86,7 @@
     "awarder": "Company",
     "summary": "There is no spoon."
   }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
-  }],
+  "publications": [],
   "skills": [{
     "name": "Web Development",
     "level": "Master",
@@ -81,10 +104,11 @@
     "level": "Native"
   }],
   "interests": [{
-    "name": "Wildlife",
+    "name": "Literature",
     "keywords": [
-      "Ferrets",
-      "Unicorns"
+      "Franz Kafka",
+      "Haruki Murakami",
+      "Chuck Palahniuk"
     ]
   }],
   "references": []
