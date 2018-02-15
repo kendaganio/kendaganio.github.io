@@ -1,6 +1,7 @@
 ---
 title: New year, new me and all that nonsense.
 date: "2018-01-25"
+published: true
 tags:
   - self
   - personal-development

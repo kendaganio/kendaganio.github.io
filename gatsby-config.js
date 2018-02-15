@@ -3,7 +3,17 @@ module.exports = {
     title: 'Ken-Lauren Daganio'
   },
   plugins: [
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [{
+          resolve: `gatsby-remark-prismjs`,
+          options: {
+            classPrefix: 'language-'
+          }
+        }]
+      }
+    },
     `gatsby-plugin-glamor`,
     `gatsby-plugin-react-helmet`,
     {

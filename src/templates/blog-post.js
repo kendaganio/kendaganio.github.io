@@ -1,12 +1,16 @@
 import React from "react";
 import g from "glamorous"
+import Helmet from 'react-helmet';
+
+import './blog.css';
 
 export default ({ data }) => {
   const post = data.markdownRemark;
-  console.log(post)
 
   return (
     <div className="blog-post">
+      <Helmet title={`${data.site.siteMetadata.title} | ${post.frontmatter.title}`} />
+
       <g.H1 marginBottom="5px">
         <span className="fancy-underline">
           {post.frontmatter.title}
@@ -30,6 +34,11 @@ export const query = graphql`
         title
         date(formatString: "DD MMMM, YYYY")
         tags
+      }
+    }
+    site {
+      siteMetadata {
+        title
       }
     }
   }
