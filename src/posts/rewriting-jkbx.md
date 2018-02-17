@@ -89,7 +89,7 @@ allow me to show you!
 
 Initially I was adamant to use [Single File Components](https://vuejs.org/v2/guide/single-file-components.html)
 just because they didn't fit with my `A E S T H E T I C S`. However as I was developing the app I slowly, and this is hard for me to admit,
-grew a linking to the idea of having a component in a single file.
+grew a liking to the idea of having a component in a single file.
 
 ```javascript
 // Hullo.vue
@@ -116,15 +116,71 @@ One thing that is still hard for me today is where do I put my CSS in React. Wit
 need to worry myself with such nonsense, instead I just dump everything in one file and let the fantastic [vue-loader](https://github.com/vuejs/vue-loader)
 do it's job.
 
-### TODO
-- What I liked
-  - vue component
-  - event handling
-  - directives
-  - computed properties
-- What I didn't like
-  - props passing
-- Closing thoughts
-- Invite to check out app and code
+Each application starts with a Vue instance, this let's Vue know where to mount the application, and which template to use.
+[Components](https://vuejs.org/v2/guide/components.html) much like in every other js framework nowadays are reusable nuggets of code, packed in a HTML-looking tag.
+These components have lifecycle methods, data definition, and events. I won't go into much detail about how everything works,
+the [Vue docs](https://vuejs.org/v2/guide/) is fantastic, and it is by far the easiest for me to use and understand.
+
+### Things that I particulary liked
+
+For every new framework that I learn, I see a different approach in doing literally the same things. So here I'd like to list out what piqued 
+my curiosity:
+
+**Event Handling**
+
+In React, event handlers are functions passed from parent to child; or if you are using Redux you pass from a smart to dumb components.
+
+```javascript
+const handler = event => { /* do something */ }
+export default (props) => {
+  <SomeComponent clickHandler={handler} />
+}
+```
+In Vue however, I like that component actions are emitted and a parent component reacts to a event.
+```javascript
+// Child Component
+Vue.component('child-component', {
+  methods: {
+    excitingEvent() {
+      this.$emit('woah')
+    }
+  }
+})
+```
+```javascript
+// Parent Template
+<child-component v-on:woah="reactionMethod"/>
+```
+It's not that different with React, but in my mind this is much easier to understand. Because it explicitly tells you just by looking at it 
+that an event is being reacted to by the parent, not unlike in React where behavior is passed on to a child.
+
+**Computed Properties**
+
+There are some things that you need to be evaluated before you use it in a view. Say, removing a few keys from an object, transforming text, 
+you get the idea. [Computed Properties](https://vuejs.org/v2/guide/computed.html) in Vue act like regular properties but it passes through a
+function whenever a re-render occurs.
+
+```javascript
+Vue.component('lol', {
+  data: { message: 'i am so angry' }
+  computed: {
+    angryMessage: function() {
+      return `${this.message}!!!!`.toUpperCase()
+    }
+  }
+})
+```
+```javascript
+<p>{{ angryMessage }}</p>
+// => I AM SO ANGRY!!!!
+```
+
+*All caps make you look angry!!!!*
+
+### Wrapping it up!
+
+All in all, I enjoyed my time playing with Vue. It's simple enough to learn in a few days, and full featured enough for large and complex
+applications. It might be worth considering Vue as a front-end framework of choice for your next project. You can check out the source code of
+[jkbx at Github](http://github.com/kendaganio/jkbx) and you can play with it at [https://kendaganio.com/jkbx](https://kendaganio.com/jkbx).
 
 **– Ken**
