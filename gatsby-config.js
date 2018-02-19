@@ -15,10 +15,10 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-tagmanager`,
       options: {
-        trackingId: "UA-114305079-1",
-        head: true,
+        id: "UA-114305079-1",
+        includeInDevelopment: false,
       }
     },
     `gatsby-plugin-glamor`,
