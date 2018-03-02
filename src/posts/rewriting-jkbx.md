@@ -85,6 +85,34 @@ Vue has no prescribed opinions on how to structure your code, so I leave that di
 So now I know what you're thinking, what the hell are `.vue` files! Good observation dear friend, 
 allow me to show you!
 
+### The Vue Instance
+
+```javascript
+// https://github.com/kendaganio/jkbx/blob/master/src/main.js
+import Vue from 'vue';
+import VueYoutube from 'vue-youtube';
+
+import router from './router';
+import App from './App';
+
+Vue.config.productionTip = false;
+Vue.use(VueYoutube);
+
+/* eslint-disable no-new */
+new Vue({
+  el: '#jkbx-app',
+  router,
+  components: {
+    App,
+  },
+  template: '<App/>',
+});
+```
+
+Each application starts with a Vue instance, this let's Vue know where to mount the application, and which template to use.
+[Components](https://vuejs.org/v2/guide/components.html) much like in every other js framework nowadays are reusable nuggets of code, packed in a HTML-looking tag.
+These components have lifecycle methods, data definition, and events. I won't go into much detail about how everything works,
+the [Vue docs](https://vuejs.org/v2/guide/) is fantastic, and it is by far the easiest for me to use and understand.
 ### The Anatomy of a Vue Component
 
 Initially I was adamant to use [Single File Components](https://vuejs.org/v2/guide/single-file-components.html)
@@ -93,7 +121,6 @@ grew a liking to the idea of having a component in a single file.
 
 ```javascript
 // Hullo.vue
-
 <template>
   <h1>{{ message }}</h1>
 </template>
@@ -114,12 +141,8 @@ h1 { font-weight: bold }
 
 One thing that is still hard for me today is where do I put my CSS in React. With Single File Components I don't 
 need to worry myself with such nonsense, instead I just dump everything in one file and let the fantastic [vue-loader](https://github.com/vuejs/vue-loader)
-do it's job.
-
-Each application starts with a Vue instance, this let's Vue know where to mount the application, and which template to use.
-[Components](https://vuejs.org/v2/guide/components.html) much like in every other js framework nowadays are reusable nuggets of code, packed in a HTML-looking tag.
-These components have lifecycle methods, data definition, and events. I won't go into much detail about how everything works,
-the [Vue docs](https://vuejs.org/v2/guide/) is fantastic, and it is by far the easiest for me to use and understand.
+do it's job. You may add a `scoped` attribute to the `style` tag and when it's built the css properties you define will only 
+affect the component you wrote it in. It's really neat.
 
 ### Things that I particulary liked
 
