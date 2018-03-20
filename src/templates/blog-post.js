@@ -21,7 +21,7 @@ export default ({ data }) => {
 
       <br/>
       <br/>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div className="blog-body" dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
   );
 };
