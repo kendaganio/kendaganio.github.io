@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, {
+  font-family: 'Gentium Book Basic', serif;
+  letter-spacing: -1px;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+main.-main {
+  padding-bottom: 0;
+}
+
+footer.container {
+  padding-top: 0;
+}
+
+a {
+  color: inherit;
+  background: linear-gradient(180deg, transparent 60%, #ffeaa7 0) 50%/0 70% no-repeat;
+  background-size: 100% 100%;
+  font-weight: 400;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+code {
+  background: transparent;
+  padding: 0;
+}
+
+pre {
+  padding: 2em;
+}
+
+@import
+  "posts",
+  "syntax",
+  "cv"

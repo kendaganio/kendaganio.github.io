@@ -1,0 +1,26 @@
+.cv-wrapper {
+  h1 {
+    font-size: 3rem;
+    line-height: 0.8;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    font-family: Fira Sans,Helvetica Neue,Helvetica,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    .colored {
+      color: inherit;
+      background: linear-gradient(180deg, transparent 60%, #ffeaa7 0) 50%/0 70% no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+
+  .left {
+    text-align: right;
+  }
+
+}
