@@ -24,3 +24,41 @@
   }
 
 }
+
+@media print {
+  .cv-wrapper {
+    font-size: 80%;
+  }
+
+  .site-nav {
+    display: none;
+  }
+
+  h1.ma-name-ken {
+    font-size: 2rem;
+  }
+
+  .colored {
+    font-size: 1rem;
+  }
+
+  .left {
+    width: 33%;
+    float: left;
+    min-height: 3000px;
+  }
+
+  #right {
+    width: 66%;
+    float: right;
+
+    div h2 {
+      font-size: 1rem;
+    }
+
+    div p {
+      font-size: 0.8rem;
+      line-height: normal;
+    }
+  }
+}
