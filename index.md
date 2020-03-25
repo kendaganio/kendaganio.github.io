@@ -11,8 +11,8 @@ title: Home
 I am a software developer with a penchant for experimentation. 
 I have walked my way through most of the web stack and find myself enjoying every bit of it. 
 Currently, I am helping 
-<a href="https://remotelock.com" target='_blank'>RemoteLock</a>
-create smart locks for everyone!
+<a href="https://hometime.io" target='_blank' rel='noopenner'>Hometime</a>
+manage properties for Airbnb!
 To learn more of what I've done in the past you can do so [here](https://kendaganio.com/cv).
 
 Most of what I do revolves around **Ruby** and **Javascript**, but that doesn't mean I am less open to other technology stacks. 
